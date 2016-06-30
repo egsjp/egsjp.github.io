@@ -7,6 +7,7 @@
 body {
     margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, "メイリオ", Osaka, "MS PGothic", "ＭＳ Ｐゴシック", sans-serif;
+    background: url(../images/bkgd-sandpaper.png) #fafafa;
 }
 
 .navbar-inverse {
@@ -39,10 +40,7 @@ body {
 .image-bg-fluid-height,
 .image-bg-fixed-height {
   text-align: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover;
 }
 
 .img-center {
@@ -55,6 +53,17 @@ section {
 
 section .fa {
   padding-right: 0.5rem;
+}
+
+.container.bordered {
+  box-shadow: 1px 1px 4px 1px rgba(160, 160, 160, .1);
+  border-radius: 5px;
+  background: #fafafa;
+}
+@media screen and (max-width: 640px) {
+  .container.bordered {
+    border-radius: 0;
+  }
 }
 
 .section-heading {
@@ -91,6 +100,6 @@ footer {
     }
 }
 
-h1, h2, h3, h4, h5, h6 {
-  /*font-weight: bold;*/
+h1 {
+  font-weight: bold;
 }
