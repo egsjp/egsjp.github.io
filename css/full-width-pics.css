@@ -6,8 +6,11 @@
 
 body {
     margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    /*font-family: 'Noto Sans Japanese', sans-serif;*/
     font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, "メイリオ", Osaka, "MS PGothic", "ＭＳ Ｐゴシック", sans-serif;
+}
+
+.navbar-inverse {
+  background-color: #4f396f;
 }
 
 .image-bg-fluid-height {
