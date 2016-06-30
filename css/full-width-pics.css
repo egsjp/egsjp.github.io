@@ -6,25 +6,39 @@
 
 body {
     margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    /*font-family: 'Noto Sans Japanese', sans-serif;*/
+    font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, "メイリオ", Osaka, "MS PGothic", "ＭＳ Ｐゴシック", sans-serif;
+}
+
+.image-bg-fluid-height {
+	background: url('../images/jumbotron.jpg') no-repeat center center scroll;
+  padding: 100px 0;
+}
+@media screen and (max-width: 568px) {
+  .image-bg-fluid-height {
+    background-position: 71% 50%;
+    padding: 50px 0;
+  }
+}
+/*@media screen and (max-width: 640px) {
+  .image-bg-fluid-height {
+    background-position: 71% 50%;
+    padding: 70px 0;
+  }
+}*/
+
+.image-bg-fixed-height {
+	background: url('../images/jumbotron.jpg') no-repeat center center scroll;
+    height: 450px;
 }
 
 .image-bg-fluid-height,
 .image-bg-fixed-height {
-    text-align: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.image-bg-fluid-height {
-	background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;
-    padding: 100px 0;
-}
-
-.image-bg-fixed-height {
-	background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;
-    height: 450px;
+  text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 .img-center {
@@ -32,7 +46,7 @@ body {
 }
 
 section {
-    padding: 75px 0;
+    padding: 25px 0;
 }
 
 .section-heading {
@@ -54,11 +68,15 @@ footer {
 
 @media(max-width:768px) {
     section {
-        padding-top: 25px;
-        padding-bottom: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
     .section-heading {
         font-size: 2em;
     }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  /*font-weight: bold;*/
 }
