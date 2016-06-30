@@ -49,6 +49,10 @@ section {
     padding: 25px 0;
 }
 
+section .fa {
+  padding-right: 0.5rem;
+}
+
 .section-heading {
     margin: 30px 0;
     font-size: 4em;
@@ -56,16 +60,16 @@ section {
 
 .section-lead {
     margin: 30px 0;
-    line-height: 1.7;
+    line-height: 1.9;
 }
 
 .section-paragraph {
     margin: 30px 0;
-    line-height: 1.7;
+    line-height: 1.9;
 }
 
 .list-item {
-  line-height: 1.7;
+  line-height: 1.9;
 }
 
 footer {
