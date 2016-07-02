@@ -1,0 +1,26 @@
+/*
+ extra style
+ */
+
+
+$primary-color: #4f396f;
+
+a {
+  color: lighten($primary-color, 20%);
+}
+
+.site-title {
+  background: rgba($primary-color, .85);
+  // background hsl(264,32%,33%);
+  // background: #4f396f;
+  color: #f0f0f0;
+  text-shadow: 1px 1px #333;
+  border-bottom: $primary-color;
+}
+
+footer {
+  margin: 25px 0 0;
+  padding: 50px 0;
+  background: darken($primary-color, 20%);
+  color: #f0f0f0;
+}

@@ -1,0 +1,16 @@
+.htaccess
+*.sublime-workspace
+*.sublime-project
+.svn/
+*.scssc
+prepros.cfg
+Gruntfile.js
+gulpfile.js
+ignore
+package.json
+sftp-config.json
+node_modules/
+.sass-cache/
+config.rb
+
+# activate your own themes

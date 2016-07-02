@@ -81,6 +81,11 @@ section .fa {
     line-height: 1.9;
 }
 
+.section-caption {
+  margin: 10px 0 30px;
+  line-height: 1.9;
+}
+
 .list-item {
   line-height: 1.9;
 }
