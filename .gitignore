@@ -15,3 +15,5 @@ config.rb
 
 # activate your own themes
 materials/
+*.ejs
+dev/
