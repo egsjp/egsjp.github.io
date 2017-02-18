@@ -4,14 +4,31 @@
 a {
   color: #8060ae; }
 
+.navbar-inverse .navbar-brand {
+  color: #ccc; }
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #ccc; }
+
 .site-title {
   background: rgba(79, 57, 111, 0.85);
   color: #f0f0f0;
   text-shadow: 1px 1px #333;
   border-bottom: #4f396f; }
+  .site-title a {
+    color: #f0f0f0;
+    text-decoration: underline; }
 
 footer {
   margin: 25px 0 0;
   padding: 50px 0;
   background: #1f162c;
   color: #f0f0f0; }
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0; }
+  .row.no-gutters > [class^="col-"],
+  .row.no-gutters > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0; }
