@@ -5,6 +5,18 @@
 
 $primary-color: #4f396f;
 
+
+h1 {
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 26px;
+	.fa {
+		color: $primary-color;
+	}
+}
+
 a {
   color: lighten($primary-color, 20%);
 }

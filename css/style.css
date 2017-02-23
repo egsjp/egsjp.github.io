@@ -1,6 +1,14 @@
 /*
  extra style
  */
+h1 {
+  font-size: 32px; }
+
+h2 {
+  font-size: 26px; }
+  h2 .fa {
+    color: #4f396f; }
+
 a {
   color: #8060ae; }
 
