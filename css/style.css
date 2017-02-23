@@ -1,6 +1,9 @@
 /*
  extra style
  */
+/*
+ * variables
+ */
 h1 {
   font-size: 32px; }
 
@@ -27,6 +30,13 @@ a {
     color: #f0f0f0;
     text-decoration: underline; }
 
+.section-lead {
+  margin: 12px 0;
+  line-height: 1.7; }
+
+.section-paragraph {
+  margin: 12px 0; }
+
 footer {
   margin: 25px 0 0;
   padding: 50px 0;
@@ -40,3 +50,6 @@ footer {
   .row.no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0; }
+
+#information .container {
+  background: #ead6e2; }

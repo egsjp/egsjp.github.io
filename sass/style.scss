@@ -3,7 +3,13 @@
  */
 
 
+
+/*
+ * variables
+ */
 $primary-color: #4f396f;
+$information-color: lighten(adjust-hue($primary-color, 60deg), 55%);
+$base-margin: 12px;
 
 
 h1 {
@@ -47,6 +53,15 @@ a {
 	}
 }
 
+.section-lead {
+	margin: $base-margin 0;
+	line-height: 1.7;
+}
+
+.section-paragraph {
+	margin: $base-margin 0;
+}
+
 footer {
   margin: 25px 0 0;
   padding: 50px 0;
@@ -63,4 +78,10 @@ footer {
     padding-right: 0;
     padding-left: 0;
   }
+}
+
+#information {
+	.container {
+		background: $information-color;
+	}
 }
