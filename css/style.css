@@ -21,6 +21,10 @@ a {
 .navbar-inverse .navbar-nav > li > a {
   color: #ccc; }
 
+.notice {
+  color: #c00;
+  font-weight: bolder; }
+
 .site-title {
   background: rgba(79, 57, 111, 0.85);
   color: #f0f0f0;
