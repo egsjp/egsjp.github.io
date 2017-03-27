@@ -25,6 +25,9 @@ a {
   color: #c00;
   font-weight: bolder; }
 
+.idt-1-em {
+  margin-left: 1em; }
+
 .site-title {
   background: rgba(79, 57, 111, 0.85);
   color: #f0f0f0;
