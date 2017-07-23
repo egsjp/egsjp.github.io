@@ -5,7 +5,7 @@ jQuery(document).ready(function($) {
 	
 	// メンバーのアイコンをTwitterから取得
 	var i;
-	var url = 'https://tecking.org/egs_jp/get-userinfo.php?user=';
+	var url = 'http://egsjp.php.xdomain.jp/tw/?user=';
 	var users = ['akane_natsuki', 'ringo3_41', 'tamori_mo', 'tecking'];
 	
 	for (i = 0; i < users.length; i++) {
