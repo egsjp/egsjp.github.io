@@ -4,6 +4,9 @@
 /*
  * variables
  */
+body {
+  color: #37284d; }
+
 h1 {
   font-size: 32px; }
 
@@ -11,6 +14,19 @@ h2 {
   font-size: 26px; }
   h2 .fa {
     color: #4f396f; }
+
+h3 {
+  font-size: 20px; }
+
+dt {
+  line-height: 1.9; }
+
+dd {
+  margin-left: 1em;
+  line-height: 1.9; }
+  dd > ul {
+    padding-left: 32px;
+    padding-left: 2rem; }
 
 a {
   color: #8060ae; }
@@ -60,3 +76,9 @@ footer {
 
 #information .container {
   background: #ead6e2; }
+
+#information .date {
+  line-height: 1;
+  font-weight: bold; }
+  #information .date + h3 {
+    margin-top: 0; }

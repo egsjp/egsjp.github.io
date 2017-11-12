@@ -12,6 +12,9 @@ $information-color: lighten(adjust-hue($primary-color, 60deg), 55%);
 $base-margin: 12px;
 
 
+body {
+	color: darken($primary-color, 10%);
+}
 h1 {
 	font-size: 32px;
 }
@@ -20,6 +23,22 @@ h2 {
 	font-size: 26px;
 	.fa {
 		color: $primary-color;
+	}
+}
+
+h3 {
+	font-size: 20px;
+}
+
+dt {
+	line-height: 1.9;
+}
+
+dd {
+	margin-left: 1em;
+	line-height: 1.9;
+	& > ul {
+		padding-left: 2rem;
 	}
 }
 
@@ -92,5 +111,13 @@ footer {
 #information {
 	.container {
 		background: $information-color;
+	}
+	.date {
+		line-height: 1;
+//		margin-bottom: $base-margin;
+		font-weight: bold;
+		& + h3 {
+			margin-top: 0;
+		}
 	}
 }
